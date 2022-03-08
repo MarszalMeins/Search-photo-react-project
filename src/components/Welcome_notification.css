@@ -1,0 +1,7 @@
+.welcome_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25em;
+    padding-top: 20em;
+    gap: 0.5em;
+}

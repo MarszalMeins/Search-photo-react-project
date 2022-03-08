@@ -1,0 +1,71 @@
+.resoult_header {
+    padding: 2em;
+}
+
+.photo_container_resoults {
+    margin: 4em 4em;
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.photo {
+    height: fill;
+    width: fill;
+}
+
+/*----- Modal -----*/
+.modal_panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    right: 150px;
+    bottom: 150px;
+    border: lightgray solid 1px;
+    background-color: white;
+}
+
+.modal_header {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.authorPhoto_modal {
+    position: absolute;
+    width: 10em;
+    top: 5px;
+    left: 5px;
+}
+
+.createdAt_modal {
+    position: absolute;
+    width: 10em;
+    top: 50px;
+    left: 5px;
+}
+
+.modal_button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.photo_modal {
+    height: 400px;
+    width: 400px;
+}
+
+.locationPhoto_modal {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+
+
