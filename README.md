@@ -8,7 +8,7 @@ Nodejs server: https://github.com/MarszalMeins/Autocomplete-Nodejs-Server
 
 
 ## How it works
-After typing a word you can click "Enter" or select one of the autocomplete options, this brings U to next page where your will have list of pictures matching the word. U can click photo to see more information about it in a popup.
+After typing a word You can click "Enter" or select one of the autocomplete options, this brings You to next page where your will have list of pictures matching the word. You can click photo to see more information about it in a popup.
 
 
 ## Stay up to date with new projects
