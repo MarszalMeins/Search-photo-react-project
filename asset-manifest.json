@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Search-photo-react-project/static/css/main.b76e6600.css",
+    "main.js": "/Search-photo-react-project/static/js/main.4150260f.js",
+    "index.html": "/Search-photo-react-project/index.html",
+    "main.b76e6600.css.map": "/Search-photo-react-project/static/css/main.b76e6600.css.map",
+    "main.4150260f.js.map": "/Search-photo-react-project/static/js/main.4150260f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76e6600.css",
+    "static/js/main.4150260f.js"
+  ]
+}
