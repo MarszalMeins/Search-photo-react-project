@@ -59,9 +59,10 @@ function Search() {
             onKeyPress={keyPress} 
             onChange={afterClick}>
             </input>
+            
+            <div className = { errorAutocomplete ? ("error_show") : ("error_hide") }>No match!</div>
 
             <div className="search_content">
-                <div className = { errorAutocomplete ? ("error_show") : ("error_hide") }>No match</div>
                 {autocompleteResoults && (
                     <ul className="autocomplete_panel">
                         {autocompleteResoults.map((autocompleteResoults, index) => {
@@ -71,7 +72,7 @@ function Search() {
                             onClick={() => handleAutocompleteResoult(autocompleteResoults.query)}>
 
                                 {autocompleteResoults.query}
-                                
+
                             </div>
                         })}
                     </ul>
