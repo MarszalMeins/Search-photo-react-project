@@ -1,28 +1,114 @@
-.welcome_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 20em;
-    gap: 0.5em;
+
+
+@media screen and (max-width: 767px){
+    .welcome_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 5em;
+        gap: 0.2em;
+        
+    }
     
+    .header_welcome {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        text-transform: capitalize;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
+    
+    .description_welcome {
+        color: white;
+        padding: 5px 0 15px;
+        font-size: 16px;
+        text-transform: capitalize;
+        word-spacing: 2px;
+        font-weight: 400;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
 }
 
-.header_welcome {
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-    text-transform: capitalize;
-    text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .welcome_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 10em;
+        gap: 0.3em;
+        
+    }
+    
+    .header_welcome {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-transform: capitalize;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
+    
+    .description_welcome {
+        color: white;
+        padding: 10px 0 20px;
+        font-size: 18px;
+        text-transform: capitalize;
+        word-spacing: 2px;
+        font-weight: 400;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
 }
 
-.description_welcome {
-    color: white;
-    padding: 15px 0 25px;
-    font-size: 20px;
-    text-transform: capitalize;
-    word-spacing: 2px;
-    font-weight: 400;
-    text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+@media screen and (min-width: 1024px){
+    .welcome_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20em;
+        gap: 0.5em;
+        
+    }
+    
+    .header_welcome {
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+        text-transform: capitalize;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
+    
+    .description_welcome {
+        color: white;
+        padding: 15px 0 25px;
+        font-size: 20px;
+        text-transform: capitalize;
+        word-spacing: 2px;
+        font-weight: 400;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.5);
+    }
 }
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+*/

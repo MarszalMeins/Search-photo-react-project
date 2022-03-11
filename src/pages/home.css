@@ -1,6 +1,26 @@
-.home_overlay {
-    background-size: cover;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background-unsplash.jpg');
-    height:100vh;
-    width: 100%;
+@media screen and (max-width: 767px){
+    .home_overlay {
+        background-size: cover;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background-unsplash.jpg');
+        height:60.5em;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .home_overlay {
+        background-size: cover;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background-unsplash.jpg');
+        height:60.5em;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .home_overlay {
+        background-size: cover;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background-unsplash.jpg');
+        height: 100vh;
+        width: 100%;
+    }
 }
